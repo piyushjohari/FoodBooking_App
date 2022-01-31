@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(251, 251, 251);
+}
+.card-out{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    margin: 40px;
+    display: block;
+    display: inline-block;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+    background-color: rgb(230, 231, 243);
+}
+.cards{
+    width:320px;
+    height:500px;
+    /* border: 2px solid black; */
+    margin: 10px;
+    /* padding: 10px; */
+    /* margin: 40px; */
+    display: block;
+    display: inline-block;
+}
+
+.card-num{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 40px;
+    /* margin: 5px; */
+    padding: 8px;
+}
+
+.card-time{
+    /* border: 1px solid black; */
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 12px;
+}
+.card-food-Name{
+    /* border: 1px solid black; */
+    font-size: 34px;
+    text-transform: uppercase;
+}
+.card-food-desc{
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+.read{
+    /* border: 1px solid black; */
+    text-align: right;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.card-img{
+    /* border: 1px solid black; */
+    /* margin: 5px; */
+}
+.card-img img{
+    /* width: 200px; */
+    height: 200px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    align-items: center;
+}
+.order{
+    /* border: 1px solid black; */
+    padding: 10px;
+
+    /* width: 50%; */
+}
+.item-price{
+    width: 50%;
+    /* border: 1px solid black; */
+    padding-right: 60px;
+    font-size: 20px;
+}
+.order button{
+    /* border: 1px solid black; */
+
+    all: unset;
+    text-align: center;
+    color:white;
+    background-color: rgb(127, 155, 233);
+    padding: 10px;
+    width: 118px;
+    border-radius: 45px;
+    cursor: pointer;    
+    /* float: right; */
+    ;
+}
+
